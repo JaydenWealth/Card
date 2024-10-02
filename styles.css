@@ -111,7 +111,7 @@
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    row-gap: var(--smallRowGapSpace);
+    row-gap: var(--smallerRowGapSpace);
 }
 
 .card-image-container{
@@ -156,4 +156,9 @@ button{
     font-size: 1.1rem;
     font-weight: 500;
     cursor: pointer;
+}
+
+button:hover{
+    color: aqua;
+    background-color: blue
 }
